@@ -1,0 +1,41 @@
+const mongoose = require('mongoose');
+
+const medicineSchema = new mongoose.Schema({
+  studentId: {
+    type: String,
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  dosage: {
+    type: String,
+    required: true
+  },
+  frequency: {
+    type: String,
+    required: true
+  },
+  startDate: {
+    type: Date,
+    required: true
+  },
+  endDate: {
+    type: Date,
+    required: true
+  },
+  notes: {
+    type: String
+  },
+  taken: {
+    type: Boolean,
+    default: false
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
+});
+
+module.exports = mongoose.model('Medicine', medicineSchema);

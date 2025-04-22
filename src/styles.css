@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dashboard Layout */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Motivation Banner */
+  .motivation {
+    background: #004c99;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  /* Dashboard Container (Sidebar + Content) */
+  .dashboard-container {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Sidebar Navigation */
+  .dashboard-sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #ddd;
+  }
+  
+  .dashboard-sidebar button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #333;
+  }
+  
+  .dashboard-sidebar button:hover,
+  .dashboard-sidebar .active {
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .dashboard-sidebar button svg {
+    margin-right: 10px;
+  }
+  
+  /* Main Content */
+  .dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  .dashboard-footer {
+    text-align: center;
+    padding: 10px;
+    background: #f1f1f1;
+    font-size: 14px;
+  }
+  
