@@ -13,7 +13,7 @@ const Home = () => {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <h1 className="text-xl font-bold text-blue-600">Student Health Portal</h1>
+                <h1 className="text-xl font-bold text-blue-600">Health Buzz</h1>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
                 <Link
@@ -78,10 +78,10 @@ const Home = () => {
       <div className="bg-blue-600">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            KL University Health Services
+            Health Buzz Portal
           </h1>
           <p className="mt-6 text-xl text-blue-100 max-w-3xl mx-auto">
-            Comprehensive healthcare solutions for students to monitor and improve their wellbeing.
+            Your personal health assistant for tracking reports, meals, medicines, and leaves.
           </p>
           <div className="mt-10 flex justify-center">
             <div className="inline-flex rounded-md shadow">
@@ -109,9 +109,9 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">Features</h2>
-            <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Everything you need for your health</p>
+            <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">Tools to manage your wellbeing</p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-              Our platform provides comprehensive tools to monitor and improve student health.
+              Health Buzz offers tools to keep track of your reports, meals, and medicines efficiently.
             </p>
           </div>
 
@@ -129,7 +129,7 @@ const Home = () => {
                     </div>
                     <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Health Reports</h3>
                     <p className="mt-5 text-base text-gray-500">
-                      Track your health metrics and get personalized reports to monitor your progress.
+                      View your medical history, diagnosis reports, and health updates in one place.
                     </p>
                   </div>
                 </div>
@@ -145,9 +145,9 @@ const Home = () => {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Meal Plans</h3>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Meal Suggestions</h3>
                     <p className="mt-5 text-base text-gray-500">
-                      Get customized meal plans based on your health condition and dietary preferences.
+                      Personalized food recommendations based on your health profile.
                     </p>
                   </div>
                 </div>
@@ -163,9 +163,9 @@ const Home = () => {
                         </svg>
                       </span>
                     </div>
-                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Medicine Reminders</h3>
+                    <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">Medicine Tracking</h3>
                     <p className="mt-5 text-base text-gray-500">
-                      Never miss your medications with our smart reminder system.
+                      Track and update your medication intake with ease.
                     </p>
                   </div>
                 </div>
@@ -175,29 +175,29 @@ const Home = () => {
         </div>
       </div>
 
-      {/* About KL University */}
+      {/* About Section */}
       <div className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">About KL University</h2>
+            <h2 className="text-base font-semibold text-blue-600 tracking-wide uppercase">About Health Buzz</h2>
             <p className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              A premier institution for higher education
+              A complete health companion for students
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              KL University is committed to providing quality education and healthcare services to its students.
+              Health Buzz is built to support student health with simple, smart, and effective features.
             </p>
           </div>
 
           <div className="mt-10">
             <div className="prose prose-blue prose-lg text-gray-500 mx-auto">
               <p>
-                KL University is one of the leading educational institutions known for its academic excellence and innovative teaching methodologies. The university is committed to the holistic development of students, including their physical and mental wellbeing.
+                Health Buzz helps students maintain their wellbeing by offering features to monitor reports, manage medications, and follow personalized meal plans.
               </p>
               <p>
-                The Student Health Portal is an initiative by KL University to provide comprehensive healthcare services to its students. The portal allows students to track their health metrics, get personalized meal plans, set medicine reminders, and request leave when they are unwell.
+                The platform is intuitive and designed to meet the day-to-day health needs of students in a digital and centralized manner.
               </p>
               <p>
-                The university believes that a healthy student is a productive student. Hence, it has invested in this state-of-the-art health portal to ensure that students have access to the best healthcare services.
+                Health Buzz encourages a proactive approach to wellness by combining technology and health awareness in one user-friendly platform.
               </p>
             </div>
           </div>
@@ -230,7 +230,7 @@ const Home = () => {
             </div>
           </nav>
           <p className="mt-8 text-center text-base text-gray-400">
-            &copy; 2023 KL University Student Health Portal. All rights reserved.
+            &copy; 2024 Health Buzz. All rights reserved.
           </p>
         </div>
       </footer>
